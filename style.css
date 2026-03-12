@@ -1,0 +1,125 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial, Helvetica, sans-serif;
+background:#f5f6f8;
+color:#111;
+}
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:25px 8%;
+background:white;
+border-bottom:1px solid #eee;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+}
+
+nav a{
+margin-left:25px;
+text-decoration:none;
+color:#111;
+font-size:14px;
+}
+
+.hero{
+text-align:center;
+padding:100px 20px;
+}
+
+.hero img{
+width:200px;
+margin-bottom:20px;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.hero p{
+color:#666;
+}
+
+.products{
+padding:80px 8%;
+}
+
+.products h2{
+text-align:center;
+margin-bottom:40px;
+}
+
+.product-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:30px;
+}
+
+.product{
+background:white;
+padding:20px;
+border-radius:10px;
+box-shadow:0 6px 18px rgba(0,0,0,0.06);
+transition:0.3s;
+text-align:center;
+}
+
+.product:hover{
+transform:translateY(-6px);
+}
+
+.product img{
+width:100%;
+border-radius:6px;
+margin-bottom:15px;
+}
+
+.contact{
+padding:80px 20px;
+text-align:center;
+background:white;
+}
+
+.social-buttons{
+margin-top:20px;
+display:flex;
+justify-content:center;
+gap:20px;
+}
+
+.social-buttons a{
+padding:14px 28px;
+border-radius:30px;
+color:white;
+text-decoration:none;
+font-weight:bold;
+transition:0.3s;
+}
+
+.tiktok{
+background:black;
+}
+
+.instagram{
+background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
+}
+
+.social-buttons a:hover{
+transform:scale(1.08);
+}
+
+footer{
+text-align:center;
+padding:30px;
+color:#666;
+}
